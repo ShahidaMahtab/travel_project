@@ -1,60 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <!-- css stylesheet -->
- <link rel="stylesheet" href="./style.css">
- <!-- font awesome -->
- <script src="https://kit.fontawesome.com/eba90cb610.js" crossorigin="anonymous"></script>
- <title>Travel</title>
-</head>
-<body>
- <header class="home">
- <!-- nav -->
- <nav class="navbar">
-  <!-- navcenter -->
-  <div class="nav-center">
-   <!-- nav-header -->
-   <div class="nav-header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/eba90cb610.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Travel</title>
+  </head>
+  <body>
+    <header class="home">
+      <!-- nav -->
+      <nav class="navbar">
+        <!-- navcenter -->
+        <div class="nav-center">
+          <!-- nav-header -->
+          <div class="nav-header">
+            <img src="./images/Logo.png" class="nav-logo" alt="" />
 
-       <img src="./images/Logo.png" class="nav-logo" alt="">
+            <button type="button" class="nav-toggle" aria-label="nav toggler">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- nav links -->
+          <div class="nav-links">
+            <a href="#" class="nav-link">Destinations</a>
+            <a href="#" class="nav-link">Hotels</a>
+            <a href="#" class="nav-link">Flights</a>
+            <a href="#" class="nav-link">Bookings</a>
+            <a href="#" class="nav-link">Login</a>
+            <a href="#" class="nav-link signup">sign up</a>
+            <select name="" id="" class="nav-link nav-select">
+              <option value="EN">EN</option>
+            </select>
+          </div>
+          <!-- end of nav links -->
+        </div>
+      </nav>
+      <!-- hero components -->
+      <div class="hero">
+        <div class="hero-text">
+          <h3 class="subtitle">Best destination around the world</h3>
+          <h1 class="hero-title">Travel, enjoy and live a new full life</h1>
+          <p>
+            Built Wicket longer admire do barton vanity itself do in it.
+            Preferred to sportsmen it engrossed listening. Park gate sell they
+            west hard for the.
+          </p>
+          <div class="btn-info">
+           <a href="#" class="btn btn-primary">Find out more</a>
+           <div class="play-icon">
+             <i class="fas fa-play-circle"></i>
+             <p>play demo</p>
+           </div>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img
+            src="./images/banner-female.png"
+            class="banner-img"
+            alt="female-picture"
+          />
+        </div>
+      </div>
+    </header>
+    <!-- category -->
+    <section class="section categories">
+      <!-- title -->
+      <div class="title-wrapper">
+        <h4 class="sub">category</h4>
+        <h2 class="title">we offer best services</h2>
+      </div>
+      <!-- end of title -->
+      <div class="section-center category-center">
+        <!-- single category -->
+        <article class="category">
+          <div class="category-img-container">
+            <img
+              src="./images/categories/category-1.png"
+              class="category-img"
+              alt=""
+            />
+          </div>
+          <h4>calculated weather</h4>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+        </article>
+        <!-- end of single category -->
+        <!-- single category -->
+        <article class="category">
+          <div class="category-img-container">
+            <img
+              src="./images/categories/category-2.png"
+              class="category-img"
+              alt=""
+            />
+          </div>
+          <h4>best Flights</h4>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+        </article>
+        <!-- end of single category -->
+        <!-- single category -->
+        <article class="category">
+          <div class="category-img-container">
+            <img
+              src="./images/categories/category-3.png"
+              class="category-img"
+              alt=""
+            />
+          </div>
+          <h4>local events</h4>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+        </article>
+        <!-- end of single category -->
+        <!-- single category -->
+        <article class="category">
+          <div class="category-img-container">
+            <img
+              src="./images/categories/category-4.png"
+              class="category-img"
+              alt=""
+            />
+          </div>
+          <h4>customization</h4>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+        </article>
+        <!-- end of single category -->
+      </div>
+    </section>
+    <!-- end of category -->
+    <!-- top selling -->
+    <section class="section sellings">
+      <!-- title -->
+      <div class="title-wrapper">
+        <h4 class="sub">top selling</h4>
+        <h2 class="title">top destinations</h2>
+      </div>
+      <!-- end of title -->
+      <div class="section-center selling-center">
+        <!-- single card -->
+        <article class="selling">
+          <div class="selling-img-container">
+            <img
+              src="./images/selling/selling-1.png"
+              class="selling-img"
+              alt=""
+              srcset=""
+            />
 
+            <div class="selling-footer">
+              <div class="selling-text">
+                <h4>Rome, italy</h4>
+                <p>$5,42k</p>
+              </div>
+              <div class="selling-icon">
+                <a href="#" class="link-arrow"
+                  ><i class="fas fa-location-arrow"></i>10 days trip</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- end of single card -->
+        <!-- single card -->
+        <article class="selling">
+          <div class="selling-img-container">
+            <img src="./images/selling/selling-2.png" alt="" srcset="" />
 
-        <button type="button" class="nav-toggle" aria-label="nav toggler"> <i class="fas fa-bars"></i></button>
-
-   </div>
-   <!-- nav links -->
-   <div class="nav-links">
-    <a href="#" class="nav-link">Destinations</a>
-    <a href="#" class="nav-link">Hotels</a>
-    <a href="#" class="nav-link">Flights</a>
-    <a href="#" class="nav-link">Bookings</a>
-    <a href="#" class="nav-link">Login</a>
-    <a href="#" class="nav-link signup">sign up</a>
-    <select name="" id="" class="nav-link nav-select">
-     <option value="EN">EN</option>
-    </select>
-   </div>
-   <!-- end of nav links -->
-  </div>
- </nav>
- <!-- hero components -->
- <div class="hero">
-  <div class="hero-text">
-   <h3 class="subtitle">Best destination around the world</h3>
-   <h1 class="hero-title">Travel, enjoy and live a new full life</h1>
-   <p >Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p> 
-     <a href="#" class="btn btn-primary">Find out more</a>
-  </div>
-  <div class="hero-img">
-   <img src="./images/banner-female.png" class="banner-img" alt="female-picture">
-  </div>
- </div>
- </header>
- <section>
-  
- </section>
-</body>
+            <div class="selling-footer">
+              <div class="selling-text">
+                <h4>London, UK</h4>
+                <p>$4.2k</p>
+              </div>
+              <div class="selling-icon">
+                <a href="#" class="link-arrow"
+                  ><i class="fas fa-location-arrow"></i>12 days trip</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- end of single card -->
+        <!-- single card -->
+        <article class="selling">
+          <div class="selling-img-container">
+            <img src="./images/selling/selling-3.png" alt="" />
+            <div class="selling-footer">
+              <div class="selling-text">
+                <h4>Full Europe</h4>
+                <p>$15k</p>
+              </div>
+              <div class="selling-icon">
+                <a href="#" class="link-arrow"
+                  ><i class="fas fa-location-arrow"></i>10 days trip</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- end of single card -->
+      </div>
+    </section>
+    <!-- end of top selling -->
+    <!-- easy and fast -->
+    <section class="section easy">
+      <div class="section-center easy-center">
+        <div class="easy-icons easy-col">
+          <h6>easy and fast</h6>
+          <h2 class="easy-title">Book your next trip in 3 easy steps</h2>
+          <div class="easy-icon">
+            <span><i class="fas fa-vector-square"></i></span>
+            <div class="easy-icon-text">
+              <h4>choose destination</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                tortor tempus.
+              </p>
+            </div>
+          </div>
+          <div class="easy-icon">
+            <span><i class="fas fa-swimmer"></i></span>
+            <div class="easy-icon-text">
+              <h4>make payment</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                tortor tempus.
+              </p>
+            </div>
+          </div>
+          <div class="easy-icon">
+            <span><i class="fas fa-taxi"></i></span>
+            <div class="easy-icon-text">
+              <h4>Reach airport on selected date</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                tortor tempus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="easy-img-container easy-col">
+          <div class="easy-img">
+            <img src="./images/easy.png" alt="" />
+          </div>
+          <h4>trip to greece</h4>
+          <p>14-29june|by robin john</p>
+          <div class="img-icons">
+            <i class="fas fa-leaf"></i>
+            <i class="far fa-map"></i>
+            <i class="fas fa-paper-plane"></i>
+          </div>
+          <div class="img-icon">
+            <i class="fas fa-building"></i>
+            <span class="img-icon-text"> 24 people going</span>
+            <i class="far fa-heart"></i>
+          </div>
+          <!-- starting popup -->
+          <div class="easy-pop-up">
+            <div class="pop-img-container">
+              <img src="./images/pop-up.png" alt="" />
+            </div>
+            <div class="pop-text">
+              <h6>ongoing</h6>
+              <h5>trip to rome</h5>
+              <h6><span class="violet">40%</span> completed</h6>
+              <div class="pop-container">
+                <div class="pop-value"></div>
+              </div>
+            </div>
+          </div>
+          <!-- end of popup -->
+        </div>
+      </div>
+    </section>
+    <!-- end of easy and fast -->
+    <!-- testimonials -->
+    <section class="section testimonials">
+      <div class="testimonial-center">
+        <div class="testimonial-head testimonial-sec">
+          <div class="testimonial-text">
+            <h4>testimonial</h4>
+            <h2>what people say about us</h2>
+          </div>
+          <div class="testimonial-icon">
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+        <div class="testimonial-detail testimonial-sec">
+          <div class="testimonial-footer">
+            <p class="testimonial-info">
+              “On the Windows talking painted pasture yet its express parties
+              use. Sure last upon he same as knew next. Of believed or diverted
+              no.”
+            </p>
+            <div class="testimonial-message">
+              <h5>Mike taylor</h5>
+              <h6>lahore pakistan</h6>
+            </div>
+            <div class="testimonial-message second">
+              <h5>chirs thomas</h5>
+              <h6>ceo of red button</h6>
+            </div>
+            <div class="testimonial-img-container">
+              <img src="./images/testimonial.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of testimonials -->
+    <!-- agency -->
+    <section class="section agencies">
+      <div class="agency-center">
+        <div class="agency-1 agency">
+          <img src="./images/agency/axon.png" class="agency-img" alt="" />
+        </div>
+        <div class="agency-2 agency">
+          <img src="./images/agency/jetstar.png" class="agency-img" alt="" />
+        </div>
+        <div class="agency-3 agency">
+          <img src="./images/agency/expedia.png" class="agency-img" alt="" />
+        </div>
+        <div class="agency-4 agency">
+          <img src="./images/agency/qantas.png" class="agency-img" alt="" />
+        </div>
+        <div class="agency-5 agency">
+          <img src="./images/agency/alitalia.png" class="agency-img" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- end of agency -->
+    <!-- subscribe -->
+    <section class="section subscribes">
+      <div class="subscribe-center section-center">
+        <div class="subscribe-text">
+          <h3>
+            Subscribe to get information, latest news and other interesting
+            offers about Cobham
+          </h3>
+        </div>
+        <div class="subscribe-input">
+          <span><i class="fas fa-envelope"> email</i></span>
+          <a href="#" class="btn btn-primary btn-subscribe">subscribe</a>
+        </div>
+      </div>
+    </section>
+    <!-- end of subscibe -->
+    <!-- jadoo -->
+    <section class="section jadoo">
+      <div class="jadoo-center section-center">
+        <div class="jadoo-text jadoo-item">
+          <h3>Jadoo.</h3>
+          <p>Book your trip in minute, get full Control for much longer.</p>
+        </div>
+        <div class="jadoo-table jadoo-item">
+          <table class="table-container">
+            <thead>
+             <tr>
+               <th>company</th>
+               <th>contact</th>
+               <th>more</th>
+             </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>about</td>
+                <td>help/faq</td>
+                <td>airlinefees</td>
+              </tr>
+              <tr>
+                <td>careers</td>
+                <td>press</td>
+                <td>airline</td>
+              </tr>
+              <tr>
+                <td>mobile</td>
+                <td>affilates</td>
+                <td>low fare tips</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="jadoo-icon jadoo-item">
+          <span class="jadoo-icons">
+            <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram-square"></i>
+          <i class="fab fa-twitter"></i>
+          <p>discover your app</p>
+          </span>
+          <div class="jadoo-img-container">
+            <div>
+               <img src="./images/Google Play.png" alt="">
+            </div>
+           <div>
+             <img src="./images/Play Store.png" alt="">
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of jadoo -->
+    <!-- footer -->
+   <footer>
+     <p>All rights reserved@jadoo.co</p>
+   </footer>
+  </body>
 </html>
