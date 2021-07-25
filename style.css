@@ -463,7 +463,7 @@ Easy and fast
 }
 
 .easy-center {
-  margin: 0 auto;
+  margin: 0 auto 4rem auto;
   padding:2rem 0 10rem 0;
   text-align: center;
   width: 100vw;
@@ -578,9 +578,7 @@ Easy and fast
   width: 263px;
   height: 129px;
   padding: 2rem 1rem;
-  margin: 3rem auto;
-  /* position: absolute; */
-  border: 2px solid green;
+  margin: 4rem auto;
 }
 
 .pop-img-container img {
