@@ -171,6 +171,11 @@ header {
 Hero Component
 ===============
  */
+ .home{
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
 .header {
   min-height: 100vh;
 }
@@ -277,6 +282,9 @@ category
 ===============
  */
 .categories {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   text-align: center;
 }
 
@@ -351,8 +359,10 @@ Top selling
 ===============
  */
 .sellings {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   text-align: center;
-  padding-bottom: 0;
 }
 
 
@@ -449,6 +459,7 @@ Easy and fast
 .easy {
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 
 .easy-center {
@@ -680,6 +691,9 @@ testimonials
 ================
  */
 .testimonials {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   text-transform: capitalize;
 }
 
@@ -791,6 +805,11 @@ testimonials
 Agencies
 ==============
 */
+.agencies{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 .agency-center {
   width: 85vw;
   display: flex;
@@ -812,6 +831,11 @@ Agencies
 subscribe
 =============
 */
+.subscribes{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 .subscribe-text h3 {
   margin: 0 auto;
   text-align: center;
@@ -851,6 +875,11 @@ subscribe
 jadoo
 =============
  */
+ .jadoo{
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
 .jadoo-img-container {
   margin: 0 auto;
   width: 100px;
